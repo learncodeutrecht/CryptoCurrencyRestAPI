@@ -25,7 +25,7 @@ SECRET_KEY = 'nydy(tk6kg8lq+y9vf!@$qvmwlb*21tlp5)2pwf5kc1dyn1zbd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['128.199.35.153',]
 
 
 # Application definition
@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'CryptoCurrencyRestAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'CryptoCurrency',
+        'USER': 'rik',
+        'PASSWORD': 'ogD42y$Y8W',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -118,3 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
