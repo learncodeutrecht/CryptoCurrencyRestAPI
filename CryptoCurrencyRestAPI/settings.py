@@ -75,12 +75,8 @@ WSGI_APPLICATION = 'CryptoCurrencyRestAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cryptocurrency',
-        'USER': 'rik',
-        'PASSWORD': 'ogD42y$Y8W',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
