@@ -25,7 +25,7 @@ SECRET_KEY = 'nydy(tk6kg8lq+y9vf!@$qvmwlb*21tlp5)2pwf5kc1dyn1zbd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['128.199.35.153']
+ALLOWED_HOSTS = ['206.189.12.80']
 
 
 # Application definition
