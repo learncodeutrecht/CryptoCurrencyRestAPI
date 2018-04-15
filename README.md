@@ -10,6 +10,12 @@ create project
 docker-compose run web django-admin.py startproject CryptoCurrencyRestAPI .
 ```
 
+change owner and group
+
+```
+sudo chown $USER:$USER -R .
+```
+
 run docker-compose
 
 ```
