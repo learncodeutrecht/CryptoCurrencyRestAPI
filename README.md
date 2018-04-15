@@ -7,7 +7,7 @@ https://docs.docker.com/compose/django/#connect-the-database
 create project
 
 ```
-docker-compose run web django-admin.py startproject composeexample .
+docker-compose run web django-admin.py startproject CryptoCurrencyRestAPI .
 ```
 
 run docker-compose
