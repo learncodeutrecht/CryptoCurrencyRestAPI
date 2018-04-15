@@ -1,5 +1,31 @@
 # CryptoCurrencyRestAPI
 
+## docker-compose
+
+https://docs.docker.com/compose/django/#connect-the-database
+
+create project
+
+```
+docker-compose run web django-admin.py startproject CryptoCurrencyRestAPI .
+```
+
+change owner and group
+
+```
+sudo chown $USER:$USER -R .
+```
+
+run docker-compose
+
+```
+docker-compose up
+```
+
+and navigate to 127.0.0.1:8000
+
+## deployment
+
 Running on DigitalOcean droplet, adress: http://206.189.12.80/
 
 ## How was this Django project deployed?
